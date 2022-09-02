@@ -16,8 +16,6 @@ header {
     color:azure;
 }
 
-
-
 ul {
     display: flex;
     justify-content: space-between;
@@ -38,10 +36,11 @@ ul {
     margin-right: 5%;
     padding-right: 5%;
     border-right: 5px solid #ccc;
-        height: 125px;
+    height: 125px;
 }
 
 .me{
+    font-size: 125%;
     display:flex;
     align-items: center;
     color:azure;
@@ -54,7 +53,24 @@ ul {
     padding-right: 5%;
 }
 
-  
+p.yellow::selection {
+    background: #fff2a8;
+  }
+
+#work {}
+
+#images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+img {
+    border: #575757 solid 5px;
+}
+
 a {
     color: #575757;
     font-weight: bolder;
@@ -64,7 +80,7 @@ a {
 
 a:hover {
     color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 4px #ececec;
+    text-shadow: 2px 5px 10px #808080;
   }
 
   h2 {
