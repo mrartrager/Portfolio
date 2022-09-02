@@ -1,13 +1,14 @@
 body {
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#c772e0,#356bbb);
+    font-family: Helvetica;
 }
 
-header{
+header {
+    height: 20px;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5%;
-    background: linear-gradient(rgb(204, 204, 204), rgb(133, 133, 133));
+    padding: 2.5%;
 }
 
 .name {
@@ -15,20 +16,66 @@ header{
     color:azure;
 }
 
-nav ul {
+
+
+ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
-  }
+}
+
+.about {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+    padding-right: 5%;
+    
+}
+
+#about {
+    text-align: right;
+    margin-right: 5%;
+    padding-right: 5%;
+    border-right: 5px solid #ccc;
+        height: 125px;
+}
+
+.me{
+    display:flex;
+    align-items: center;
+    color:azure;
+}
+.work {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+    padding-right: 5%;
+}
+
   
-  nav a {
+a {
     color: #575757;
     font-weight: bolder;
-    text-decoration: none;
+    text-decoration: underline solid 5px #575757;
+    
   }
 
 a:hover {
     color: rgb(0, 0, 0);
-    text-shadow: 2px 2px 4px #ffffff;
+    text-shadow: 2px 2px 4px #ececec;
+  }
+
+  h2 {
+    font-size: 200%;
+    color: azure;
+    padding-right: 10%;
   }
   
+  footer {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+}
