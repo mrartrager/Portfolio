@@ -1,8 +1,34 @@
 body {
     background: linear-gradient(#e66465, #9198e5);
 }
-    
-nav {
-    display: flex
 
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    background: linear-gradient(rgb(204, 204, 204), rgb(133, 133, 133));
 }
+
+.name {
+    font-size: 200%;
+    color:azure;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+  
+  nav a {
+    color: #575757;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #ffffff;
+  }
+  
