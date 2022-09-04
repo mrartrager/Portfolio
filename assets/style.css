@@ -1,4 +1,4 @@
-body {
+main {
     background: linear-gradient(#c772e0,#356bbb);
     font-family: Helvetica;
 }
@@ -27,6 +27,10 @@ header {
     height: 110px;
 }
 
+.nav {
+    text-decoration: underline solid 5px #ffffff;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -39,6 +43,7 @@ ul {
     max-width: 1200px;
     margin: 2% auto;
     padding-right: 5%;
+    padding-top: 5%;
     
 }
 
@@ -51,10 +56,20 @@ ul {
 }
 
 .me{
-    font-size: 125%;
-    display:flex;
-    align-items: center;
+    font-size: 225%;
     color:azure;
+    margin-left: 5%;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+#pic {
+    border-radius: 100px;
+    width: 300px;
+    height: 300px;
+    display: block;
+    position: relative;
+    
 }
 .work {
     display: flex;
@@ -64,15 +79,11 @@ ul {
     padding-right: 5%;
 }
 
-p.yellow::selection {
-    background: #fff2a8;
-  }
-
 #work {
     text-align: right;
     padding-right: 6.3%;
     border-right: 5px solid #ccc;
-    height: 300px;
+    height: 900px;
 }
 
 #images {
@@ -85,13 +96,36 @@ p.yellow::selection {
 
 .img1 {
     position: relative;
-    margin-top: -350px;
+    margin-top: -1150px;
 }
+
+.img2 {
+    position: relative;
+    margin-left: -300px;
+}
+.img3 {
+    position: relative;
+    margin-left: 340px;
+    margin-top: -167px;
+}
+
+#img3 {
+    height: 150px;
+    width: 300px;
+}
+
+#img2 {
+    height: 150px;
+    width: 300px;
+}
+
+
 
 .text-block {
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-items: center;
     flex-direction: column;
     position: absolute;
     bottom: 50px;
@@ -112,7 +146,7 @@ img {
 a {
     color: #575757;
     font-weight: bolder;
-    text-decoration: underline solid 5px #575757;
+
     
   }
 
@@ -126,10 +160,36 @@ a:hover {
     color: azure;
     padding-right: 10%;
   }
+
+  .con{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#808080 ;
+  }
   
   footer {
+    
+   
+}
+
+
+.nav2 {
+    margin-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 150%;
+    color: azure;
     display: flex;
-    flex: 1 1 0;
-    max-width: 1200px;
-    margin: 2% auto;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: row;
+}
+
+#nav2 {
+    display:flex;
+   justify-content: space-between;
+
 }
