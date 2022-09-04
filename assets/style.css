@@ -11,9 +11,20 @@ header {
     padding: 2.5%;
 }
 
+
+
 .name {
     font-size: 200%;
     color:azure;
+    background-color: teal; 
+}
+
+#name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 110px;
 }
 
 ul {
@@ -57,7 +68,12 @@ p.yellow::selection {
     background: #fff2a8;
   }
 
-#work {}
+#work {
+    text-align: right;
+    padding-right: 6.3%;
+    border-right: 5px solid #ccc;
+    height: 300px;
+}
 
 #images {
     display: flex;
@@ -67,8 +83,30 @@ p.yellow::selection {
 
 } 
 
+.img1 {
+    position: relative;
+    margin-top: -350px;
+}
+
+.text-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    background-color:#575757;
+    color: white;
+    height: 50px;
+    width: 150px;
+    
+  }
+
 img {
     border: #575757 solid 5px;
+    margin-bottom: 15px;
+    
 }
 
 a {
