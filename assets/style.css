@@ -61,6 +61,7 @@ ul {
     margin-left: 5%;
     text-align:justify;
     text-justify:inter-word;
+    padding-bottom: 10%;
 }
 
 #pic {
@@ -91,12 +92,27 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 } 
+
+#images img {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+
+
+#images img:hover {
+    -webkit-filter: brightness(100%);
+    }
 
 .img1 {
     position: relative;
     margin-top: -1150px;
+   
+    
 }
 
 .img2 {
