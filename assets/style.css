@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2.5%;
-    background: linear-gradient( #2e5b9e,#356bbb)
+    background: linear-gradient( #2e5b9e,#356bbb);
 }
 
 .name {
@@ -66,8 +66,6 @@ ul {
     border-radius: 0px 0px 150px 0px;
   }
 
-
-
 .about {
     display: flex;
     justify-content: center;
@@ -99,8 +97,8 @@ ul {
     height: 300px;
     display: block;
     position: relative;
-    
 }
+
 .work {
     display: flex;
     flex: 1 1 0;
@@ -208,7 +206,7 @@ h2 {
   }
   
 footer {
-    background-color: #808080;
+    background: linear-gradient(#808080, #4b4b4b);
 }
 
 
@@ -232,13 +230,13 @@ footer {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 900px) {
     main {
       background: linear-gradient( #2e5b9e,#356bbb)
     }
   }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 900px) {
     header {
         display:flex;
         justify-content: space-between;
@@ -248,73 +246,94 @@ footer {
     }
   }
 
-  @media screen and (max-width: 992px) {
+@media screen and (max-width:900px){
+  .zelda  {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-bottom: #ffffff;
+        border-radius: 0px 0px 150px 150px;
+}
+}
+
+@media screen and (max-width:900px){
+    .text-block1
+    {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color:#575757;
+    color: azure;
+    height: 50px;
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 0px 150px 0px;
+    }
+}
+
+  @media screen and (max-width:900px) {
  .name {
-    border-radius: 100%;
     font-size: 100%;
     color:rgb(255, 255, 255);
     background-color: rgb(117, 11, 255);
+    margin-right: 10px;
  }
-
-  }
-
-@media screen and (max-width:992px){
-    .about {
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 150px;
-    }
-}
-
-@media screen and (max-width:100px){
-    .about {
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 10px;
-    }
 }
 
 
-  @media screen and (max-width: 992px) {
-    .me {
+@media screen and (max-width:900px){
+    .about {
+    font-size: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    }
+}
+
+@media screen and (max-width:900px){
+    #pic {
         display: flex;
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
+        flex-wrap: wrap;
         flex-direction: row;
-        font-size: 125%;
-        color:azure;
-        margin-left: 1%;
-        text-align:justify;
-        padding-bottom: 1%;
-        padding-top: 5%;
+        width: 150px;
+        height: 150px;
     }
-  }
+    
+}
 
-  @media screen and (max-width: 1000px) {
+@media screen and (max-width:900px) {
     .me {
-        font-size: 100%;
-        color:azure;
-        margin-left: 1%;
-        text-align:justify;
-        padding-bottom: 1%;
-        padding-top: 5%;
-    }
+        text-align: center;
+    font-size: 250%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
   }
+}
 
-  @media screen and (max-width: 100px) {
-    .me {
-        font-size: 50%;
-        color:azure;
-        margin-left: 1%;
-        text-align:justify;
-        padding-bottom: 1%;
-        padding-top: 5%;
+
+@media screen and (max-width:900px) {
+    #work {
+        text-align: right;
+        margin-top: 10px;
+        padding-right: 2.5%;
+        border-right: 5px solid #ccc;
+        height: 1500px;
     }
-  }
+}
 
-
-  
