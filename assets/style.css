@@ -20,6 +20,13 @@ header {
     font-size: 200%;
     color:azure;
     background-color: teal;
+    color:#272727;
+    transition: color 1s ease-in-out;
+}
+
+.name:hover {
+    box-shadow: inset 300px 0 0 0 #356bbb;
+    color: white;
 }
 
 #name {
@@ -28,10 +35,6 @@ header {
     justify-content: center;
     width: 300px;
     height: 110px;
-}
-
-.nav {
-   
 }
 
 ul {
@@ -123,11 +126,11 @@ ul {
 
 #images img {
     -webkit-filter: brightness(50%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
     }
 
 #images img:hover {
