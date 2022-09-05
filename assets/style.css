@@ -1,3 +1,8 @@
+*::selection {
+    background: rgb(136, 136, 136);
+    color: rgb(255, 145, 0);
+  }
+
 main {
     background: linear-gradient(#c772e0,#356bbb);
     font-family: Helvetica;
@@ -10,8 +15,6 @@ header {
     align-items: center;
     padding: 2.5%;
 }
-
-
 
 .name {
     font-size: 200%;
@@ -82,9 +85,9 @@ ul {
 
 #work {
     text-align: right;
-    padding-right: 6.3%;
+    padding-right: 2.5%;
     border-right: 5px solid #ccc;
-    height: 900px;
+    height: 1500px;
 }
 
 #images {
@@ -110,29 +113,27 @@ ul {
 
 .img1 {
     position: relative;
-    margin-top: -1150px;
-   
-    
+    margin-top: -1550px;
+}
+
+#img1 {
+    height: 650px;
+    width: 870px;
 }
 
 .img2 {
     position: relative;
-    margin-left: -300px;
+    margin-left: -450px;
 }
 .img3 {
     position: relative;
-    margin-left: 340px;
-    margin-top: -167px;
+    margin-left: 450px;
+    margin-top: -295px;
 }
 
-#img3 {
-    height: 150px;
-    width: 300px;
-}
-
-#img2 {
-    height: 150px;
-    width: 300px;
+#img3, #img2  {
+    height: 275px;
+    width: 425px;
 }
 
 
@@ -149,7 +150,7 @@ ul {
     background-color:#575757;
     color: white;
     height: 50px;
-    width: 150px;
+    width: 170px;
     
   }
 
