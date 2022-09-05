@@ -9,17 +9,17 @@ main {
 }
 
 header {
-    height: 20px;
     display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 2.5%;
+    background: linear-gradient( #2e5b9e,#356bbb)
 }
 
 .name {
     font-size: 200%;
     color:azure;
-    background-color: teal; 
+    background-color: teal;
 }
 
 #name {
@@ -31,7 +31,7 @@ header {
 }
 
 .nav {
-    text-decoration: underline solid 5px #ffffff;
+   
 }
 
 ul {
@@ -40,20 +40,46 @@ ul {
     min-width: 300px;
 }
 
+.zelda {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-bottom: #ffffff;
+    border-radius: 0px 0px 150px 150px;
+}
+
+.text-block1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color:#575757;
+    color: azure;
+    height: 100px;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 0px 150px 0px;
+  }
+
+
+
 .about {
     display: flex;
-    flex: 1 1 0;
-    max-width: 1200px;
-    margin: 2% auto;
-    padding-right: 5%;
-    padding-top: 5%;
-    
+    justify-content: center;
+    align-items: center;
+    padding-right: 150px;
 }
 
 #about {
+    margin-left: 3%;
+    padding-left: 3%;
     text-align: right;
-    margin-right: 5%;
-    padding-right: 5%;
+    margin-right: 3%;
     border-right: 5px solid #ccc;
     height: 125px;
 }
@@ -63,8 +89,8 @@ ul {
     color:azure;
     margin-left: 5%;
     text-align:justify;
-    text-justify:inter-word;
     padding-bottom: 10%;
+    padding-top: 10%;
 }
 
 #pic {
@@ -106,7 +132,6 @@ ul {
     transition: all 1s ease;
     }
 
-
 #images img:hover {
     -webkit-filter: brightness(100%);
     }
@@ -136,8 +161,6 @@ ul {
     width: 425px;
 }
 
-
-
 .text-block {
     display: flex;
     align-items: center;
@@ -151,7 +174,6 @@ ul {
     color: white;
     height: 50px;
     width: 170px;
-    
   }
 
 img {
@@ -161,10 +183,9 @@ img {
 }
 
 a {
-    color: #575757;
-    font-weight: bolder;
-
-    
+    color: azure;
+    font-weight: bold;
+    text-decoration: underline solid 5px #ffffff; 
   }
 
 a:hover {
@@ -172,23 +193,22 @@ a:hover {
     text-shadow: 2px 5px 10px #808080;
   }
 
-  h2 {
+h2 {
     font-size: 200%;
     color: azure;
-    padding-right: 10%;
+    padding-right: 2%;
   }
 
-  .con{
+.con{
     padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#808080 ;
+    color:azure ;
   }
   
-  footer {
-    
-   
+footer {
+    background-color: #808080;
 }
 
 
@@ -210,3 +230,91 @@ a:hover {
    justify-content: space-between;
 
 }
+
+
+@media screen and (max-width: 992px) {
+    main {
+      background: linear-gradient( #2e5b9e,#356bbb)
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    header {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.5%;
+      background: linear-gradient(#c772e0,#356bbb)
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+ .name {
+    border-radius: 100%;
+    font-size: 100%;
+    color:rgb(255, 255, 255);
+    background-color: rgb(117, 11, 255);
+ }
+
+  }
+
+@media screen and (max-width:992px){
+    .about {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 150px;
+    }
+}
+
+@media screen and (max-width:100px){
+    .about {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    }
+}
+
+
+  @media screen and (max-width: 992px) {
+    .me {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+        font-size: 125%;
+        color:azure;
+        margin-left: 1%;
+        text-align:justify;
+        padding-bottom: 1%;
+        padding-top: 5%;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .me {
+        font-size: 100%;
+        color:azure;
+        margin-left: 1%;
+        text-align:justify;
+        padding-bottom: 1%;
+        padding-top: 5%;
+    }
+  }
+
+  @media screen and (max-width: 100px) {
+    .me {
+        font-size: 50%;
+        color:azure;
+        margin-left: 1%;
+        text-align:justify;
+        padding-bottom: 1%;
+        padding-top: 5%;
+    }
+  }
+
+
+  
