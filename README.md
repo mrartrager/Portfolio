@@ -23,7 +23,7 @@ https://github.com/mrartrager/Portfolio
 
 
 Here is a link to my deployed application:
-
+https://mrartrager.github.io/Portfolio/
 
 
 Here is a Fullscreen screen shot:
