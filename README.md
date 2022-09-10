@@ -18,3 +18,16 @@ As I stated in the description above, there is alot going on in my portfolio tha
 
 
 ## Credits 
+Here is a link to my GitHub Repository:
+https://github.com/mrartrager/Portfolio
+
+
+Here is a link to my deployed application:
+
+
+
+Here is a Fullscreen screen shot:
+![](assets/Screenshot.png)
+
+Here is a Mobilescreen screen shot:
+![](assets/smaller%20screen.png)
