@@ -452,3 +452,12 @@ footer {
         align-items: center;
  }
  }
+
+ @media screen and (max-width:900px) {
+    .email, .git, .twitter, .apple {
+        
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        
+ }
+ }
