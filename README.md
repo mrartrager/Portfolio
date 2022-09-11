@@ -26,8 +26,8 @@ Here is a link to my deployed application:
 https://mrartrager.github.io/Portfolio/
 
 
-Here is a Fullscreen screen shot:
+## Here is a Fullscreen screen shot:
 ![](assets/Screenshot.png)
 
-Here is a Mobilescreen screen shot:
+## Here is a Mobilescreen screen shot:
 ![](assets/smaller%20screen.png)
